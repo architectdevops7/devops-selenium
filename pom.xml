@@ -19,8 +19,18 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
             </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.0.2155</version> <!-- Use the latest version -->
+        </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <sonar.host.url>http://34.230.4.146:9000/</sonar.host.url>
+        <sonar.login>9e0adeeb48f100104a0391a401dfc1e6a90b1bf4</sonar.login>
+    </properties>
 
     <dependencies>
         <dependency>
