@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="MyTest">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="com.qascript.FirstTest"/>
+        </classes>
+    </test>
+</suite>
