@@ -28,8 +28,8 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                        <argLine>-Dtestng.dtd.http=true</argLine>
                     </suiteXmlFiles>
+                    <argLine>-Dtestng.dtd.http=true</argLine>
                 </configuration>
             </plugin>
             <plugin>
